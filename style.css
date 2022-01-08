@@ -1,0 +1,524 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#margenTelefono {
+    width: 92%;
+    height: 96%;
+    background-color: hsl(270, 20%, 96%);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 4%;
+    border-radius: 1rem;
+}
+
+#cabezeraChat {
+    width: 100%;
+    height: 13%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5em;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+#parteBlanca {
+    height: 28%;
+    width: 57%;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-top: -1%;
+}
+
+.floatCabezera {
+    float: left;
+    margin-left: 3%;
+}
+
+.left {
+    left: 0;
+    position: absolute;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(272, 41%, 93%);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0;
+}
+
+.right {
+    right: 0;
+    position: absolute;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(271, 15%, 43%);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+}
+
+
+@media (min-width: 375px) {
+    #izquierda {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    #derecha {
+        width: 100%;
+        height: auto;
+        display: flex;
+        display: block;
+        text-align: center;
+        margin-top: -23vh;
+    }
+
+    #telefono {
+        width: 70%;
+        height: 65%;
+        background-color: white;
+        box-shadow: 15px 15px 75px -25px gray;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 15%;
+        border-radius: 2rem;
+    }
+
+    #figuraMorada {
+        width: 110%;
+        height: 59%;
+        border-bottom-left-radius: 35rem;
+        border-bottom-right-radius: 35rem;
+        margin-left: -60%;
+        background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    }
+
+    #figuraMoradaTransparente {
+        width: 130%;
+        height: 50%;
+        border-top-left-radius: 35rem;
+        margin-left: 55%;
+        background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        position: fixed;
+        bottom: 0;
+        opacity: 4%;
+        border-top-right-radius: 40rem;
+        z-index: -1;
+    }
+
+    #derecha h1 {
+        font-size: 10vw;
+        color: hsl(271, 36%, 24%);
+    }
+
+    #derecha p {
+        width: 96%;
+        font-size: 4.5vw;
+        line-height: 27px;
+        color: hsl(270, 7%, 64%);
+        line-height: 3vh;
+        padding: 2%;
+    }
+
+    #contenidoCabecera {
+        position: absolute;
+        margin-top: 3.5vh;
+        color: white;
+        width: 100%;
+    }
+
+    #contenidoCabecera img {
+        width: 3vh;
+        border-radius: 100%;
+        border: 1px solid white;
+    }
+
+    #contenidoCabecera div h1 {
+        font-size: 1.5vh;
+        margin: 0;
+    }
+
+    #contenidoCabecera div p {
+        margin: 0;
+        font-size: 1vh;
+        color: hsl(276, 100%, 81%);
+    }
+
+    #flechita {
+        font-size: 2vh !important;
+        margin-left: 4% !important;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    #tresPuntos {
+        margin-left: 24% !important;
+        margin: 0;
+        font-size: 2vh !important;
+    }
+
+    #chat {
+        font-size: 1vh;
+        line-height: 1.5vh;
+    }
+
+    #chat1 {
+        margin-top: 2vh;
+        width: 40%;
+        padding: 3% 10% 3% 3%;
+        margin-left: 1vw;
+    }
+
+    #chat2 {
+        margin-top: 8vh;
+        width: 50%;
+        padding: 3% 0% 3% 3%;
+        margin-left: 1vw;
+
+    }
+
+    #chat3 {
+        margin-top: 15vh;
+        margin-right: 0.5vw;
+        background-color: hsl(270, 20%, 96%);
+
+    }
+
+    #chat3 img {
+        width: 5.5vh;
+        float: left;
+        margin-right: 0.5vw;
+        border-radius: 2vh;
+    }
+
+    #chat4 {
+        margin-top: 21vh;
+        width: 55%;
+        padding: 3% 0% 3% 3%;
+        margin-right: 1vw;
+
+    }
+
+    #chat5 {
+        margin-top: 27vh;
+        width: 32%;
+        padding: 3% 0% 3% 3%;
+        margin-right: 1vw;
+
+    }
+
+    #chat6 {
+        margin-top: 32vh;
+        width: 52%;
+        padding: 3% 3% 3% 3%;
+        margin-left: 1vw;
+
+    }
+
+    #chat7 {
+        margin-top: 40vh;
+        padding: 3% 3% 3% 3%;
+        background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+
+        margin-left: 1vw;
+        width: 20vh;
+
+    }
+
+    .f {
+        float: left;
+        margin: 0;
+        color: white;
+    }
+
+    .bolita {
+        width: 1vh;
+        height: 1vh;
+        border-radius: 1vw;
+        margin-right: 1vh;
+        border: 1px solid hsl(274, 39%, 93%);
+    }
+
+    #chat8 {
+        margin-top: 44vh;
+
+        padding: 3% 3% 3% 3%;
+        background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        margin-left: 1vw;
+        width: 20vh;
+    }
+
+    .left h1 {
+        right: 0;
+        position: absolute;
+        margin-right: 2vh;
+        font-size: 1.5vh;
+    }
+
+    #bandeja {
+        width: 86%;
+        margin-top: 49vh;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1vh;
+        padding: 2%;
+    }
+
+    #bandeja h1 {
+        right: 0;
+        position: absolute;
+        margin-top: -3vh;
+        margin-right: 2.5vh;
+        background-color: hsl(271, 36%, 24%);
+        color: white;
+        padding-left: 3.3%;
+        border-radius: 1rem;
+    }
+
+    #bandeja p {
+        margin-left: 1vw;
+        color: hsl(268, 19%, 85%);
+    }
+}
+
+@media (min-width: 1281px) {
+    #izquierda {
+        width: 50%;
+        height: 100%;
+        float: left;
+        display: flex;
+    }
+
+    #derecha {
+        text-align: left;
+        width: 50%;
+        height: 100%;
+        float: left;
+        display: flex;
+        display: block;
+        margin-top: 0;
+
+    }
+
+    #telefono {
+        width: 17%;
+        height: 65%;
+        background-color: white;
+        box-shadow: 15px 15px 75px -25px gray;
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 25%;
+        border-radius: 2rem;
+    }
+
+    #figuraMorada {
+        width: 75%;
+        height: 90%;
+        border-bottom-left-radius: 35rem;
+        border-bottom-right-radius: 35rem;
+        margin-left: -17%;
+        background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    }
+
+    #figuraMoradaTransparente {
+        width: 35%;
+        height: 90%;
+        border-top-left-radius: 35rem;
+        margin-left: 27%;
+        background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        position: fixed;
+        bottom: 0;
+        opacity: 4%;
+        border-top-right-radius: 35rem;
+        z-index: 0;
+
+    }
+
+    #derecha h1 {
+        margin-top: 42vh;
+        font-size: 2.5vw;
+        color: hsl(271, 36%, 24%);
+    }
+
+    #derecha p {
+        width: 65%;
+        font-size: 1.9vh;
+        line-height: 27px;
+        color: hsl(270, 7%, 64%);
+        line-height: 3vh;
+        padding: 0;
+    }
+
+    #contenidoCabecera {
+        position: absolute;
+        margin-top: 3.5vh;
+        color: white;
+        width: 100%;
+    }
+
+    #contenidoCabecera img {
+        width: 1.5vw;
+        border-radius: 100%;
+        border: 1px solid white;
+    }
+
+    #contenidoCabecera div h1 {
+        font-size: 0.7vw;
+        margin: 0;
+    }
+
+    #contenidoCabecera div p {
+        margin: 0;
+        font-size: 0.5vw;
+        color: hsl(276, 100%, 81%);
+    }
+
+    #flechita {
+        font-size: 1vw !important;
+        margin-left: 4% !important;
+        margin: 0;
+        font-weight: bold;
+    }
+
+    #tresPuntos {
+        margin-left: 30% !important;
+        margin: 0;
+        font-size: 1vw !important;
+    }
+
+    #chat {
+        font-size: 0.5vw;
+        line-height: 0.8vw;
+    }
+
+    #chat1 {
+        margin-top: 2vh;
+        width: 40%;
+        padding: 3% 10% 3% 3%;
+        margin-left: 1vw;
+    }
+
+    #chat2 {
+        margin-top: 8vh;
+        width: 50%;
+        padding: 3% 0% 3% 3%;
+        margin-left: 1vw;
+    }
+
+    #chat3 {
+        margin-top: 15vh;
+        margin-right: 0.5vw;
+        background-color: hsl(270, 20%, 96%);
+    }
+
+    #chat3 img {
+        width: 2.7vw;
+        float: left;
+        margin-right: 0.5vw;
+        border-radius: 0.6vw;
+    }
+
+    #chat4 {
+        margin-top: 21vh;
+        width: 50%;
+        padding: 3% 0% 3% 3%;
+        margin-right: 1vw;
+    }
+
+    #chat5 {
+        margin-top: 27vh;
+        width: 28%;
+        padding: 3% 0% 3% 3%;
+        margin-right: 1vw;
+    }
+
+    #chat6 {
+        margin-top: 32vh;
+        width: 46%;
+        padding: 3% 3% 3% 3%;
+        margin-left: 1vw;
+    }
+
+    #chat7 {
+        margin-top: 40vh;
+        padding: 3% 3% 3% 3%;
+        background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        margin-left: 1vw;
+        width: 9vw;
+
+    }
+
+    .f {
+        float: left;
+        margin: 0;
+        color: white;
+    }
+
+    .bolita {
+        width: 0.7vw;
+        height: 0.7vw;
+        border-radius: 1vw;
+        margin-right: 0.5vw;
+        border: 1px solid hsl(274, 39%, 93%);
+    }
+
+    #chat8 {
+        margin-top: 44vh;
+        padding: 3% 3% 3% 3%;
+        background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+        margin-left: 1vw;
+        width: 9vw;
+    }
+
+    .left h1 {
+        right: 0;
+        position: absolute;
+        margin-right: 0.8vw;
+        font-size: 0.7vw;
+    }
+
+    #bandeja {
+        width: 86%;
+        margin-top: 49vh;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 0.5vw;
+        padding: 2%;
+    }
+
+    #bandeja h1 {
+        right: 0;
+        position: absolute;
+        margin-top: -3vh;
+        margin-right: 2.5vh;
+        background-color: hsl(271, 36%, 24%);
+        color: white;
+        padding-left: 3.3%;
+        border-radius: 1rem;
+    }
+
+    #bandeja p {
+        margin-left: 1vw;
+        color: hsl(268, 19%, 85%);
+    }
+}
