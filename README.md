@@ -2,4 +2,4 @@
 Chat-app-css-illustration-master CHALLENGE
 
 # Link
-https://github.com/Jank1510/Chat-app-css-illustration-master
+https://jank1510.github.io/Chat-app-css-illustration-master/
