@@ -86,18 +86,17 @@ body {
         display: flex;
         display: block;
         text-align: center;
-        margin-top: -23vh;
     }
 
     #telefono {
-        width: 70%;
-        height: 65%;
-        background-color: white;
-        box-shadow: 15px 15px 75px -25px gray;
-        position: absolute;
-        margin-top: 15%;
-        margin-left: 15%;
-        border-radius: 2rem;
+        width: 70vw;
+height: 65vh;
+background-color: white;
+box-shadow: 15px 15px 75px -25px gray;
+position: absolute;
+margin-top: 10vh;
+margin-left: 15vw;
+border-radius: 2rem;
     }
 
     #figuraMorada {
